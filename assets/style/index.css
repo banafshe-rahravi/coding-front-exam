@@ -76,6 +76,7 @@ body {}
         color: var(--white-2);
         margin-left: 15px;
         margin-right: 111px;
+        margin-bottom: 12px;
     }
 
     .head-btn {
@@ -85,7 +86,12 @@ body {}
         border-radius: 6px;
         gap: 10px;
         background-color: var(--yellow);
-        color: var(--black-2)
+        color: var(--black-2);
+        margin-right: 165px;
+        margin-left: 15px;
+        position: absolute;
+        z-index: 666;
+
     }
 
     .circle-1 {
@@ -93,7 +99,12 @@ body {}
         height: 192.63px;
         border-radius: 50%;
         background-color: var(--dark-green);
-
+        margin-left: 140px;
+        margin-right: 27px;
+        margin-top: 16px;
+        position: ;
+        z-index: ;
+        transform: translate(10px, 65px);
 
 
 
@@ -104,18 +115,27 @@ body {}
         height: 198.55px;
         border-radius: 50%;
         background-color: var(--dark-green);
-        top: 359.04px;
-        left: 27.22px;
+        margin-left: 27px;
+        margin-top: -50px;
+        position: ;
+        z-index: 0;
+
+
 
 
     }
 
-    .frame {}
+    .frame {
+        position: ;
+    }
 
     .photo-1 {
         width: 208.08px;
         height: 391px;
+        transform: translate(80px, 25px);
         position: absolute;
+        z-index: 555;
+
 
 
     }
