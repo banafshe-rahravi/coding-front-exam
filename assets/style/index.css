@@ -1,0 +1,122 @@
+body {}
+
+:root {
+    --green: linear-gradient(110.6deg, #2A4032 0.81%, #3A5E46 100%);
+    --yellow: rgba(253, 222, 103, 1);
+    --dark-green: rgba(27, 45, 34, 1);
+    --white: rgba(255, 255, 255, 1);
+    --black: rgba(0, 0, 0, 1);
+    --purple: rgba(197, 194, 202, 1);
+    --light-green: rgba(59, 95, 71, 1);
+    --black-2: rgba(24, 24, 24, 1);
+    --light-grey: rgba(255, 255, 255, 0.3);
+    --white-2: rgba(255, 255, 255, 0.8);
+
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media(min-width:360px) {
+    .container {
+        width: 360px;
+        height: 2098px;
+        margin: auto;
+        background-color: aqua;
+
+    }
+
+    .head-1 {
+        width: 100%;
+        height: 640px;
+        background-color: goldenrod;
+
+
+    }
+
+    .head-text-1 {
+        font-family: Lato;
+        font-size: 30px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--light-grey);
+        margin-top: 27px;
+        margin-left: 15px;
+        margin-bottom: 12px;
+
+
+
+    }
+
+    .head-title {
+        font-family: Lato;
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 50px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--white);
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 12px;
+    }
+
+    .head-text-2 {
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--white-2);
+        margin-left: 15px;
+        margin-right: 111px;
+    }
+
+    .head-btn {
+        width: 180px;
+        height: 49px;
+        padding: 16px, 40px, 16px, 40px;
+        border-radius: 6px;
+        gap: 10px;
+        background-color: var(--yellow);
+        color: var(--black-2)
+    }
+
+    .circle-1 {
+        width: 192.63px;
+        height: 192.63px;
+        border-radius: 50%;
+        background-color: var(--dark-green);
+
+
+
+
+    }
+
+    .circle-2 {
+        width: 198.55px;
+        height: 198.55px;
+        border-radius: 50%;
+        background-color: var(--dark-green);
+        top: 359.04px;
+        left: 27.22px;
+
+
+    }
+
+    .frame {}
+
+    .photo-1 {
+        width: 208.08px;
+        height: 391px;
+        position: absolute;
+
+
+    }
+}
