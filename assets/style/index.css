@@ -372,9 +372,15 @@ body {
         margin-left: 15px;
     }
 
-    .list-items {}
+    .list-items {
+        display: flex;
+        overflow: hidden;
+    }
 
-    .items {}
+    .items {
+        display: inline;
+        margin-right: 35px;
+    }
 
     .hero-2-photo {
         width: 227.75px;
@@ -408,10 +414,13 @@ body {
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
-        line-height: 19px;
+        line-height: 18.75px;
         letter-spacing: 0em;
         text-align: left;
-        color: var(--black)
+        text-wrap: nowrap;
+        color: var(--black);
+
+
     }
 
     .hero-2-price {
@@ -421,7 +430,8 @@ body {
         line-height: 16px;
         letter-spacing: 0em;
         text-align: left;
-        color: var(--grey-2)
+        color: var(--grey-2);
+        margin-bottom: 32px;
     }
 
     .troly {
@@ -435,9 +445,38 @@ body {
         height: 30px;
         border-radius: 6px;
         gap: 10px;
-        padding: 2px;
+        padding: 3px;
+        align-items: center;
         background-color: var(--yellow);
-
-
+        margin-top: 18.5px;
+        margin-left: 54.75px;
     }
+
+    .subscribe {
+        display: flex;
+    }
+
+    .hero-2-text {
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 15px;
+        margin-top: 16px;
+        display: ;
+    }
+
+    .hero-2-price {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+
 }
