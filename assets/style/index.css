@@ -12,7 +12,7 @@ body {}
     --light-grey: rgba(255, 255, 255, 0.3);
     --white-2: rgba(255, 255, 255, 0.8);
     --grey: rgba(255, 255, 255, 0.2);
-
+    --black-3: rgba(0, 0, 0, 0.25);
 
 }
 
@@ -179,9 +179,82 @@ body {}
         align-items: center;
         margin-left: 145px;
         margin-top: -10px;
-        position: ;
-        transform: translate();
 
 
     }
+
+    .nav-bar {
+        width: 100%;
+        background-color: var(--yellow);
+        display: inline-block;
+        padding-bottom: 10px;
+        padding-top: 2px;
+        margin-top: -27px;
+        position: ;
+        top: ;
+
+
+    }
+
+    .nav-list {
+        display: inline-block;
+        margin-left: 22px;
+        margin-right: 22px;
+        margin-top: 12px;
+
+    }
+
+    .nav-list:first-of-type {
+        margin-left: 15px;
+    }
+
+    .nav-list:last-of-type {
+        margin-right: 15px;
+    }
+
+    .mark-bar {
+        background-color: var(--black);
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .mark-list {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+
+    .mark-list:first-of-type {
+        margin-left: 15px;
+    }
+
+    .mark-list:last-of-type {
+        margin-right: 15px;
+    }
+
+    .hero-1 {
+        width: 100%;
+        height: px;
+        background-color: red;
+    }
+
+    .hero-1-title {
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--black)
+    }
+
+    .hero-1-card {}
+
+    .card-1 {}
+
+    .card-1-text {}
+
+    .card-1-photo {}
+
+    .card-1-btn {}
 }
