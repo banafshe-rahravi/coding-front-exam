@@ -17,6 +17,9 @@ body {
     --black-3: rgba(0, 0, 0, 0.25);
     --purple: rgba(197, 194, 202, 1);
     --grey-2: rgba(0, 0, 0, 0.6);
+    --medium-green: rgba(24, 24, 24, 0.25);
+    --okr: rgba(255, 235, 157, 1);
+    --black-4: rgba(30, 30, 30, 1);
 
 
 
@@ -26,12 +29,11 @@ body {
     box-sizing: border-box;
 }
 
-@media(min-width:360px) {
+@media(min-width:340px) {
     .container {
         width: 360px;
         height: 2098px;
         margin: auto;
-        background-color: aqua;
 
     }
 
@@ -101,6 +103,15 @@ body {
 
     }
 
+    .head-btn:hover {
+        width: 180px;
+        height: 49px;
+        padding: 16px, 40px, 16px, 40px;
+        border-radius: 6px;
+        background-color: var(--okr);
+
+    }
+
     .circle-1 {
         width: 192.63px;
         height: 192.63px;
@@ -132,13 +143,11 @@ body {
 
     }
 
-    .frame {
-        position: ;
-    }
+    .frame {}
 
     .photo-1 {
-        width: 208.08px;
-        height: 391px;
+        width: px;
+        height: px;
         transform: translate(80px, 25px);
         position: absolute;
         z-index: 555;
@@ -190,14 +199,15 @@ body {
     }
 
     .nav-bar {
-        width: 100%;
+        width: ;
         background-color: var(--yellow);
         display: inline-block;
         padding-bottom: 10px;
+        padding-right: 16px;
         padding-top: 2px;
-        margin-top: -27px;
-        position: ;
-        top: ;
+        margin-top: -75px;
+        position: fixed;
+        z-index: 999;
 
 
     }
@@ -222,6 +232,7 @@ body {
         background-color: var(--black);
         display: flex;
         justify-content: space-between;
+        margin-top: -27px;
 
     }
 
@@ -303,6 +314,16 @@ body {
         position: absolute;
     }
 
+    .card-1-btn:hover {
+        width: 180px;
+        height: 49px;
+        padding: 16px, 40px, 16px, 40px;
+        border-radius: 6px;
+        background-color: var(--black-4);
+
+
+    }
+
     .card-2 {
         width: 330px;
         height: 245.61px;
@@ -357,6 +378,15 @@ body {
         transform: translate(140px, -80px);
     }
 
+    .card-2-btn:hover {
+        width: 180px;
+        height: 49px;
+        padding: 16px, 40px, 16px, 40px;
+        border-radius: 6px;
+        background-color: var(--black-4);
+
+    }
+
     .hero-2 {
         background-color: var(--purple);
     }
@@ -374,7 +404,7 @@ body {
 
     .list-items {
         display: flex;
-        overflow: hidden;
+        overflow-x: scroll;
     }
 
     .items {
@@ -403,7 +433,7 @@ body {
 
     .heart {
         width: 24px;
-        height: 24px;
+        height: 21px;
         padding: 1.92px, 0px, 0.99px, 0px;
         margin-left: 188px;
         margin-top: 16px;
@@ -445,11 +475,12 @@ body {
         height: 30px;
         border-radius: 6px;
         gap: 10px;
-        padding: 3px;
+        padding-top: 5px;
         align-items: center;
-        background-color: var(--yellow);
         margin-top: 18.5px;
         margin-left: 54.75px;
+        text-align: center;
+        background-color: var(--yellow);
     }
 
     .subscribe {
@@ -478,5 +509,71 @@ body {
         margin-left: 15px;
     }
 
+    footer {
+        width: 100%;
+        height: auto;
+        background-color: var(--light-green);
+
+    }
+
+    .f-title {
+        font-family: Lato;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding-top: 32px;
+        margin-bottom: 32px;
+        color: var(--white);
+    }
+
+    .time-list {
+        display: flex;
+        margin-left: 54px;
+        margin-right: 54px;
+        padding-bottom: 32px;
+
+
+    }
+
+    .time-item {
+        width: 54px;
+        height: 82px;
+        border-radius: 8px;
+        gap: 12px;
+        display: block;
+        margin-right: 12px;
+
+
+    }
+
+    .number {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0em;
+        background-color: red;
+        color: var(--white);
+        width: 54px;
+        height: 56px;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        text-align: center;
+
+
+    }
+
+    .time {
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--white)
+    }
 
 }
