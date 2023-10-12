@@ -405,6 +405,7 @@ body {
     .list-items {
         display: flex;
         overflow-x: scroll;
+        flex-basis: 25%;
     }
 
     .items {
@@ -413,18 +414,16 @@ body {
     }
 
     .hero-2-photo {
-        width: 227.75px;
-        height: 220px;
         border-radius: 24px;
         gap: 10px;
         background-color: var(--white);
+        padding-bottom: 30px;
         margin-top: 32px;
         margin-left: 15px;
     }
 
-    .hero-2-photo:hover: {
-        background-color: var(--black);
-    }
+    .shop:hover {}
+
 
     .item-photo {
         width: 132.99px;
