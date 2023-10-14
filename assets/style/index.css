@@ -48,6 +48,22 @@ body {
 
     }
 
+    .new {
+        display: ;
+    }
+
+    .price-text {
+        display: none;
+    }
+
+    .circle-3 {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
     .head-text-1 {
         font-family: Lato;
         font-size: 30px;
@@ -139,7 +155,7 @@ body {
     .photo-1 {
         width: px;
         height: px;
-        transform: translate(80px, 25px);
+        transform: translate(80px, 10px);
         position: absolute;
         z-index: 555;
     }
@@ -210,7 +226,7 @@ body {
         background-color: var(--black);
         display: flex;
         justify-content: space-between;
-        margin-top: -27px;
+        margin-top: 52px;
     }
 
     .mark-list {
@@ -556,6 +572,13 @@ body {
         color: var(--white)
     }
 
+    .hero-2-btn {
+        display: none;
+    }
+
+    .shoes {
+        display: none;
+    }
 }
 
 @media(min-width:1200px) {
@@ -567,8 +590,9 @@ body {
 
     .head-1 {
         width: 100%;
-        height: 748px;
+        height: 848px;
         background-image: var(--green);
+
     }
 
 
@@ -587,6 +611,7 @@ body {
 
     .menu-list {
         display: flex;
+        color: var(--white);
 
     }
 
@@ -599,7 +624,7 @@ body {
         text-align: center;
         margin-right: 32px;
         margin-top: 25px;
-
+        color: var(--white);
     }
 
     .menu-item:last-of-type {
@@ -623,7 +648,76 @@ body {
         padding: 12px;
     }
 
+    .price-text {
+        font-family: Lato;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--white);
+        position: ;
+        margin-top: px;
+        margin-left: 800px;
+        display: flex;
+        transform: translate(0, 200px);
+    }
 
+    .circle-3 {
+        width: 110px;
+        height: 110px;
+        padding: 25px;
+        border-radius: 72px;
+        gap: 10px;
+        background-color: var(--yellow);
+        position: absolute;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: var(--black);
+        margin-top: 200px;
+        margin-left: 870px;
+        z-index: 999;
+        display: flex;
+    }
+
+    .arrow-left {
+        color: var(--white);
+        width: 36px;
+        height: 36px;
+        padding: 2px;
+        border-radius: 50%;
+        border: solid 2px;
+        text-align: center;
+        margin-right: 14px;
+
+
+    }
+
+    .arrow-right {
+        color: var(--white);
+        width: 36px;
+        height: 36px;
+        padding: 2px;
+        border-radius: 50%;
+        border: solid 2px;
+        text-align: center;
+    }
+
+    .arrow-photo {
+        width: 18.67px;
+        height: 15.99px;
+        padding-top: 3px;
+    }
+
+    .arrow {
+        display: flex;
+        transform: translate(0px, 650px);
+        margin-left: 850px;
+    }
 
     .head-text-1 {
         font-family: Lato;
@@ -691,14 +785,14 @@ body {
         width: 308px;
         height: 308px;
         border-radius: 50%;
-        background-color: red;
+        background-color: var(--dark-green);
         margin-left: 987px;
         margin-right: px;
         margin-top: ;
         margin-bottom: px;
         position: ;
         z-index: ;
-        transform: translate(0px, -180px);
+        transform: translate(0px, -310px);
     }
 
     .circle-2 {
@@ -708,7 +802,7 @@ body {
         background-color: var(--dark-green);
         margin-left: 806px;
         margin-right: ;
-        margin-top: -400px;
+        margin-top: -520px;
         position: absolute;
         z-index: ;
     }
@@ -718,7 +812,7 @@ body {
     .photo-1 {
         width: 342.16px;
         height: 619.63px;
-        transform: translate(0px, -313px);
+        transform: translate(0px, -434px);
         margin-left: 877px;
         position: absolute;
         z-index: ;
@@ -763,7 +857,7 @@ body {
         transform: rotate(-270deg);
         margin-left: 1300px;
         margin-right: px;
-        margin-top: -300px;
+        margin-top: -500px;
     }
 
     .nav-bar {
@@ -774,12 +868,13 @@ body {
         background-color: var(--black);
         display: flex;
         justify-content: space-between;
-        margin-top: -27px;
+        margin-top: 360px;
     }
 
     .mark-list {
         margin-bottom: 12px;
         margin-top: 12px;
+
     }
 
     .mark-list:first-of-type {
@@ -796,46 +891,51 @@ body {
         background-color: var(--white);
         padding-left: 15px;
         padding-right: 15px;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-bottom: 70px;
     }
 
     .hero-1-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: 48px;
         font-weight: 400;
-        line-height: 32px;
+        line-height: 48px;
         letter-spacing: 0em;
-        text-align: left;
-        margin-right: 114px;
-        margin-bottom: 32px;
+        margin-left: 110px;
+        margin-top: 70px;
         color: var(--black)
     }
 
-    .hero-1-card {}
+    .hero-1-card {
+        display: flex;
+    }
 
     .card-1 {
         background-color: var(--purple);
-        width: 330px;
-        height: 411px;
+        width: 500px;
+        height: 550.750px;
         border-radius: 24px;
+        margin-left: 110px;
+        margin-top: 70px;
+        margin-right: 80px;
+        flex-basis: ;
+
     }
 
     .card-1-text {
         font-family: Lato;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 700;
-        line-height: 18px;
+        line-height: 40px;
         letter-spacing: 0em;
-        padding-top: 18px;
-        margin-left: 18px;
-        margin-bottom: 36px;
+        padding-top: 24px;
+        margin-left: 24px;
+        margin-bottom: 8px;
         color: var(--black)
     }
 
     .card-1-photo {
-        width: 197.28px;
-        height: 339.03px;
+        width: 279px;
+        height: 479px;
         margin-left: 67px;
         position: absolute;
     }
@@ -848,8 +948,8 @@ body {
         gap: 10px;
         background-color: var(--black-2);
         color: var(--white);
-        margin-left: 145px;
-        margin-top: 250px;
+        margin-left: 309px;
+        margin-top: 400px;
         position: absolute;
     }
 
@@ -862,40 +962,46 @@ body {
     }
 
     .card-2 {
-        width: 330px;
-        height: 245.61px;
+        width: 740px;
+        height: 550px;
         border-radius: 24px;
-        margin-top: 32px;
+        margin-top: 70px;
         background-color: var(--yellow);
+        flex-basis: ;
+        margin-right: px;
+
     }
 
     .card-2-text {
         font-family: Lato;
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 700;
-        line-height: 18px;
+        line-height: 40px;
         letter-spacing: 0em;
         text-align: right;
-        padding-top: 20px;
-        margin-right: 18px;
+        padding-top: 72px;
+        margin-right: 98px;
+
+
     }
 
     .card-2-off {
         font-family: Roboto;
-        font-size: 24px;
+        font-size: 48px;
         font-weight: 700;
-        line-height: 28px;
+        line-height: 56px;
         letter-spacing: 0em;
         text-align: right;
-        margin-right: 40px;
-        margin-top: 52.47px;
+        margin-right: 96px;
+        margin-top: 95px;
         color: (var--black)
     }
 
     .card-2-photo {
-        width: 189.66px;
-        height: 216.74px;
-        margin-top: -108px;
+        width: 455px;
+        height: 520px;
+        object-fit: cover;
+        margin-top: -270px;
         margin-left: 0px;
     }
 
@@ -907,9 +1013,9 @@ body {
         gap: 10px;
         background-color: var(--black-2);
         color: var(--white);
-        margin-right: 18px;
-        margin-bottom: 18px;
-        transform: translate(140px, -80px);
+        margin-right: 24px;
+        margin-bottom: 24px;
+        transform: translate(90px, -50px);
     }
 
     .card-2-btn:hover {
@@ -922,22 +1028,23 @@ body {
 
     .hero-2 {
         background-color: var(--purple);
+        padding-bottom: 69px;
     }
 
     .hero-2-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: 48px;
         font-weight: 400;
-        line-height: 32px;
+        line-height: 48px;
         letter-spacing: 0em;
         text-align: left;
-        padding-top: 32px;
-        margin-left: 15px;
+        padding-top: 70px;
+        margin-left: 110px;
     }
 
     .list-items {
         display: flex;
-        overflow-x: scroll;
+        overflow-x: ;
         flex-basis: 25%;
     }
 
@@ -947,14 +1054,14 @@ body {
     }
 
     .hero-2-photo {
-        width: 227.75px;
-        height: 220px;
+        width: 303.75px;
+        height: 347px;
         border-radius: 24px;
         gap: 10px;
         background-color: var(--white);
-        padding-bottom: 30px;
-        margin-top: 32px;
-        margin-left: 15px;
+        padding-bottom: px;
+        margin-top: 70px;
+        margin-left: 110px;
     }
 
     .hero-2-photo:hover: {
@@ -965,17 +1072,17 @@ body {
 
 
     .item-photo {
-        width: 132.99px;
-        height: 148.36px;
+        width: 214px;
+        height: 238px;
         align-items: center;
-        margin-left: 43.5px;
+        margin-left: 48.5px;
     }
 
     .heart {
         width: 24px;
-        height: 21px;
+        height: 24px;
         padding: 1.92px, 0px, 0.99px, 0px;
-        margin-left: 188px;
+        margin-left: 264px;
         margin-top: 16px;
     }
 
@@ -983,40 +1090,42 @@ body {
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
-        line-height: 18.75px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
         text-wrap: nowrap;
         color: var(--black);
+        margin-left: 110px;
     }
 
     .hero-2-price {
         font-family: Roboto;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 300;
-        line-height: 16px;
+        line-height: 19px;
         letter-spacing: 0em;
         text-align: left;
+        margin-left: 110px;
+        margin-bottom: ;
         color: var(--grey-2);
-        margin-bottom: 32px;
     }
 
     .troly {
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
     }
 
     .buy {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
         border-radius: 6px;
         gap: 10px;
-        padding-top: 5px;
+        padding-top: 10px;
         align-items: center;
-        margin-top: 18.5px;
-        margin-left: 54.75px;
+        margin-top: 18px;
+        margin-left: 102px;
         text-align: center;
         background-color: var(--yellow);
     }
@@ -1029,83 +1138,132 @@ body {
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
-        line-height: 19px;
+        line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        margin-left: 15px;
+        margin-left: 110px;
         margin-top: 16px;
+        margin-bottom: 4px;
         display: ;
     }
 
-    .hero-2-price {
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 16px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-left: 15px;
+    .hero-2-btn {
+        width: 207px;
+        height: 49px;
+        padding: 16px, 40px, 16px, 40px;
+        border-radius: 6px;
+        gap: 10px;
+        background-color: var(--black-2);
+        color: var(--white);
+        display: block;
+        margin-left: 666px;
+        margin-top: 70px;
+
     }
 
+
     footer {
-        width: 100%;
-        height: auto;
+        width: 1540px;
+        height: 450px;
         background-color: var(--light-green);
     }
 
     .f-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: 64px;
         font-weight: 700;
-        line-height: 32px;
+        line-height: 48px;
         letter-spacing: 0em;
         text-align: center;
-        padding-top: 32px;
-        margin-bottom: 32px;
+        margin-top: 78px;
+        margin-bottom: 94px;
         color: var(--white);
+        text-wrap: nowrap;
+        display: flex;
+        margin-left: -100px;
     }
 
     .time-list {
         display: flex;
-        margin-left: 54px;
-        margin-right: 54px;
-        padding-bottom: 32px;
+        flex-basis: ;
+        margin-top: 94px;
+        margin-left: -480px;
+        margin-right: px;
+        padding-bottom: 78px;
     }
 
     .time-item {
-        width: 54px;
-        height: 82px;
+        width: 153.5px;
+        height: 152px;
         border-radius: 8px;
         gap: 12px;
         display: block;
-        margin-right: 12px;
+        margin-right: 48px;
+        margin-top: px;
+        padding-bottom: 78px;
     }
 
     .number {
         font-family: Roboto;
-        font-size: 24px;
+        font-size: 64px;
         font-weight: 700;
-        line-height: 32px;
+        line-height: 48px;
         letter-spacing: 0em;
-        background-color: red;
+        background-color: var(--dark-green);
         color: var(--white);
-        width: 54px;
-        height: 56px;
-        padding: 12px;
+        width: 153.5px;
+        height: 112px;
+        padding-top: 12px;
         border-radius: 8px;
         margin-bottom: 12px;
+        margin-top: 94px;
         text-align: center;
+        align-items: center;
+        display: block;
     }
 
     .time {
         font-family: Roboto;
-        font-size: 12px;
+        font-size: 24px;
         font-weight: 300;
-        line-height: 14px;
+        line-height: 28px;
         letter-spacing: 0em;
         text-align: center;
+        margin-bottom: 78px;
         color: var(--white)
+    }
+
+    footer {
+        display: flex;
+    }
+
+    .shoes {
+        display: inline-block;
+        flex-basis: ;
+        background-image: conic-gradient(var(--light-green) 0deg 180deg, var(--yellow) 180deg 270deg);
+        padding-right: 250px;
+    }
+
+    .shoes-text {
+        font-family: Roboto;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        text-wrap: nowrap;
+        margin-top: 78px;
+        margin-left: 110px;
+        display: block;
+    }
+
+    .shoes-photo {
+        margin-top: 72px;
+        padding-left: 110px;
+        margin-bottom: 78px;
+        margin-right: ;
+
     }
 }
