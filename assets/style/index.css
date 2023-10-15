@@ -20,6 +20,14 @@ body {
     --medium-green: rgba(24, 24, 24, 0.25);
     --okr: rgba(255, 235, 157, 1);
     --black-4: rgba(30, 30, 30, 1);
+    --size-x-small: 14px;
+    --size-small: 16px;
+    --size-medium: 18px;
+    --size-large: 24px;
+    --size-x-large: 30px;
+    --size-xx-large: 32px;
+    --size-xxx-large: 60px;
+
 }
 
 * {
@@ -39,34 +47,10 @@ body {
         background-image: var(--green);
     }
 
-    .menu {
-        display: none;
-    }
-
-    .menu-list {
-        display: none;
-
-    }
-
-    .new {
-        display: ;
-    }
-
-    .price-text {
-        display: none;
-    }
-
-    .circle-3 {
-        display: none;
-    }
-
-    .arrow {
-        display: none;
-    }
 
     .head-text-1 {
         font-family: Lato;
-        font-size: 30px;
+        font-size: var(--size-x-large);
         font-style: italic;
         font-weight: 400;
         line-height: 36px;
@@ -80,7 +64,7 @@ body {
 
     .head-title {
         font-family: Lato;
-        font-size: 60px;
+        font-size: var(--size-xxx-large);
         font-weight: 900;
         line-height: 50px;
         letter-spacing: 0em;
@@ -93,7 +77,7 @@ body {
 
     .head-text-2 {
         font-family: Lato;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 400;
         line-height: 22px;
         letter-spacing: 0em;
@@ -242,6 +226,11 @@ body {
         margin-right: 15px;
     }
 
+    .mark-photo-1 {
+        width: 28px;
+        height: 10px;
+    }
+
     .hero-1 {
         width: 100%;
         height: px;
@@ -254,7 +243,7 @@ body {
 
     .hero-1-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: var(--size-xx-large);
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0em;
@@ -275,7 +264,7 @@ body {
 
     .card-1-text {
         font-family: Lato;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 700;
         line-height: 18px;
         letter-spacing: 0em;
@@ -323,7 +312,7 @@ body {
 
     .card-2-text {
         font-family: Lato;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 700;
         line-height: 18px;
         letter-spacing: 0em;
@@ -334,7 +323,7 @@ body {
 
     .card-2-off {
         font-family: Roboto;
-        font-size: 24px;
+        font-size: var(--size-large);
         font-weight: 700;
         line-height: 28px;
         letter-spacing: 0em;
@@ -378,7 +367,7 @@ body {
 
     .hero-2-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: var(--size-xx-large);
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0em;
@@ -389,7 +378,7 @@ body {
 
     .hero-2-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: var(--size-xx-large);
         font-weight: 400;
         line-height: 32px;
         letter-spacing: 0em;
@@ -457,7 +446,7 @@ body {
 
     .hero-2-price {
         font-family: Roboto;
-        font-size: 14px;
+        font-size: var(--size-x-small);
         font-weight: 300;
         line-height: 16px;
         letter-spacing: 0em;
@@ -492,7 +481,7 @@ body {
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 16px;
+        font-size: var(--size-small);
         font-weight: 500;
         line-height: 19px;
         letter-spacing: 0em;
@@ -504,7 +493,7 @@ body {
 
     .hero-2-price {
         font-family: Roboto;
-        font-size: 14px;
+        font-size: var(--size-x-small);
         font-weight: 300;
         line-height: 16px;
         letter-spacing: 0em;
@@ -520,7 +509,7 @@ body {
 
     .f-title {
         font-family: Lato;
-        font-size: 32px;
+        font-size: var(--size-xx-large);
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0em;
@@ -548,11 +537,11 @@ body {
 
     .number {
         font-family: Roboto;
-        font-size: 24px;
+        font-size: var(--size-large);
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0em;
-        background-color: red;
+        background-color: var(--dark-green);
         color: var(--white);
         width: 54px;
         height: 56px;
@@ -579,6 +568,32 @@ body {
     .shoes {
         display: none;
     }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-list {
+        display: none;
+
+    }
+
+    .new {
+        display: ;
+    }
+
+    .price-text {
+        display: none;
+    }
+
+    .circle-3 {
+        display: none;
+    }
+
+    .arrow {
+        display: none;
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -721,7 +736,7 @@ body {
 
     .head-text-1 {
         font-family: Lato;
-        font-size: 60px;
+        font-size: var(--size-xxx-large);
         font-style: italic;
         font-weight: 400;
         line-height: 72px;
@@ -868,22 +883,56 @@ body {
         background-color: var(--black);
         display: flex;
         justify-content: space-between;
-        margin-top: 360px;
+        margin-top: 300px;
     }
 
     .mark-list {
-        margin-bottom: 12px;
-        margin-top: 12px;
-
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     .mark-list:first-of-type {
-        margin-left: 15px;
+        margin-left: 110px;
     }
 
     .mark-list:last-of-type {
-        margin-right: 15px;
+        margin-right: 110px;
     }
+
+    .mark-photo-1 {
+        width: 112px;
+        height: 40px;
+        object-fit: fill;
+    }
+
+    .mark-photo-2 {
+        width: 258px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+    .mark-photo-3 {
+        width: 160.96px;
+        height: 34.69px;
+    }
+
+    .mark-photo-4 {
+        width: 140.27px;
+        height: 35.86px;
+    }
+
+    .mark-photo-5 {
+        width: 165.13px;
+        height: 40px;
+        object-fit: cover;
+    }
+
+
+    .mark-photo-6 {
+        width: 60px;
+        height: 40px;
+    }
+
 
     .hero-1 {
         width: 100%;
@@ -923,7 +972,7 @@ body {
 
     .card-1-text {
         font-family: Lato;
-        font-size: 24px;
+        font-size: var(--size-large);
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0em;
@@ -974,7 +1023,7 @@ body {
 
     .card-2-text {
         font-family: Lato;
-        font-size: 24px;
+        font-size: var(--size-large);
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0em;
@@ -1090,7 +1139,7 @@ body {
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 500;
         line-height: 21px;
         letter-spacing: 0em;
@@ -1102,7 +1151,7 @@ body {
 
     .hero-2-price {
         font-family: Roboto;
-        font-size: 16px;
+        font-size: var(--size-small);
         font-weight: 300;
         line-height: 19px;
         letter-spacing: 0em;
@@ -1138,7 +1187,7 @@ body {
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 500;
         line-height: 21px;
         letter-spacing: 0em;
@@ -1226,7 +1275,7 @@ body {
 
     .time {
         font-family: Roboto;
-        font-size: 24px;
+        font-size: var(--size-large);
         font-weight: 300;
         line-height: 28px;
         letter-spacing: 0em;
