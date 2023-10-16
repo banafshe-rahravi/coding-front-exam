@@ -20,13 +20,20 @@ body {
     --medium-green: rgba(24, 24, 24, 0.25);
     --okr: rgba(255, 235, 157, 1);
     --black-4: rgba(30, 30, 30, 1);
+    --grey-3: rgba(0, 0, 0, 0.2);
+    --size-s-small: 12px;
     --size-x-small: 14px;
     --size-small: 16px;
     --size-medium: 18px;
     --size-large: 24px;
+    --size-l-large: 25px;
     --size-x-large: 30px;
     --size-xx-large: 32px;
+    --size-big: 36px;
+    --size-x-big: 48px;
     --size-xxx-large: 60px;
+    --size-xx-big: 64px;
+    --size-xx-big: 112px;
 
 }
 
@@ -134,12 +141,10 @@ body {
         z-index: 0;
     }
 
-    .frame {}
-
     .photo-1 {
         width: px;
         height: px;
-        transform: translate(80px, 10px);
+        transform: translate(80px, 14px);
         position: absolute;
         z-index: 555;
     }
@@ -185,18 +190,14 @@ body {
     .nav-bar {
         width: 360px;
         height: 48px;
-        background-color: var(--yellow);
         display: flex;
         justify-content: space-between;
-        padding-bottom: 10px;
-        padding-right: 16px;
-        padding-top: 12px;
-        margin-top: -75px;
+        padding: 12px 16px 10px 0px;
+        margin-top: 0px;
         position: fixed;
         z-index: 999;
+        background-color: var(--yellow);
     }
-
-    .nav-list {}
 
     .nav-list:first-of-type {
         margin-left: 15px;
@@ -235,10 +236,7 @@ body {
         width: 100%;
         height: px;
         background-color: var(--white);
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding: 32px 15px 32px 15px;
     }
 
     .hero-1-title {
@@ -253,7 +251,6 @@ body {
         color: var(--black)
     }
 
-    .hero-1-card {}
 
     .card-1 {
         background-color: var(--purple);
@@ -284,7 +281,7 @@ body {
     .card-1-btn {
         width: 167px;
         height: 49px;
-        padding: 16px, 40px, 16px, 40px;
+        padding: 16px 40px 16px 40px;
         border-radius: 6px;
         gap: 10px;
         background-color: var(--black-2);
@@ -297,7 +294,7 @@ body {
     .card-1-btn:hover {
         width: 180px;
         height: 49px;
-        padding: 16px, 40px, 16px, 40px;
+        padding: 16px 40px 16px 40px;
         border-radius: 6px;
         background-color: var(--black-4);
     }
@@ -356,7 +353,7 @@ body {
     .card-2-btn:hover {
         width: 180px;
         height: 49px;
-        padding: 16px, 40px, 16px, 40px;
+        padding: 16px 40px 16px 40px;
         border-radius: 6px;
         background-color: var(--black-4);
     }
@@ -413,9 +410,6 @@ body {
         background-color: var(--black);
     }
 
-    .shop:hover {}
-
-
     .item-photo {
         width: 132.99px;
         height: 148.36px;
@@ -426,16 +420,15 @@ body {
     .heart {
         width: 24px;
         height: 21px;
-        padding: 1.92px, 0px, 0.99px, 0px;
+        padding: 1.92px 0px 0.99px 0px;
         margin-left: 188px;
         margin-top: 16px;
     }
 
-    .black-hear:hover {}
 
     .hero-2-text {
         font-family: Roboto;
-        font-size: 16px;
+        font-size: var(--size-small);
         font-weight: 500;
         line-height: 18.75px;
         letter-spacing: 0em;
@@ -473,8 +466,6 @@ body {
         background-color: var(--yellow);
     }
 
-    .buy:hover {}
-
     .subscribe {
         display: flex;
     }
@@ -501,7 +492,53 @@ body {
         margin-left: 15px;
     }
 
-    footer {
+    .hero-2-price-2 {
+        font-family: Roboto;
+        font-size: var(--size-small);
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--grey-3);
+        text-decoration: line-through;
+        text-decoration-color: var(--grey-3);
+        margin-left: 15px;
+    }
+
+    .off {
+        width: 41px;
+        height: 20px;
+        padding: 3px 6px 3px 6px;
+        border-radius: 6px;
+        font-family: Roboto;
+        font-size: var(--size-s-small);
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0em;
+        margin-left: 16px;
+        margin-bottom: 10px;
+        margin-top: -25px;
+        background-color: var(--light-green);
+        color: var(--white)
+    }
+
+    .item-photo-2 {
+        width: 132.99px;
+        height: 148.36px;
+        align-items: center;
+        margin-left: 43.5px;
+        margin-bottom: 40px;
+    }
+
+    .heart-2 {
+        width: 24px;
+        height: 21px;
+        padding: 1.92px, 0px, 0.99px, 0px;
+        margin-left: 188px;
+        margin-top: 16px;
+    }
+
+    .hero-3 {
         width: 100%;
         height: auto;
         background-color: var(--light-green);
@@ -541,19 +578,34 @@ body {
         font-weight: 700;
         line-height: 32px;
         letter-spacing: 0em;
-        background-color: var(--dark-green);
         color: var(--white);
+    }
+
+
+    .squre {
         width: 54px;
         height: 56px;
         padding: 12px;
         border-radius: 8px;
         margin-bottom: 12px;
         text-align: center;
+        background-color: var(--dark-green);
     }
+
+    .squre-1 {
+        width: 54px;
+        height: 56px;
+        padding: 12px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        text-align: center;
+        background-color: var(--dark-green);
+    }
+
 
     .time {
         font-family: Roboto;
-        font-size: 12px;
+        font-size: var(--size-s-small);
         font-weight: 300;
         line-height: 14px;
         letter-spacing: 0em;
@@ -569,18 +621,22 @@ body {
         display: none;
     }
 
+    .shoes-photo {
+        display: none;
+    }
+
+    .shoes-photo {
+        display: none
+    }
+
     .menu {
         display: none;
     }
 
     .menu-list {
         display: none;
-
     }
 
-    .new {
-        display: ;
-    }
 
     .price-text {
         display: none;
@@ -593,7 +649,6 @@ body {
     .arrow {
         display: none;
     }
-
 }
 
 @media(min-width:1200px) {
@@ -613,7 +668,7 @@ body {
 
     .menu-title {
         font-family: Lato;
-        font-size: 36px;
+        font-size: var(--size-big);
         font-weight: 900;
         line-height: 40px;
         letter-spacing: 0em;
@@ -632,7 +687,7 @@ body {
 
     .menu-item {
         font-family: Lato;
-        font-size: 18px;
+        font-size: var(--size-medium);
         font-weight: 400;
         line-height: 40px;
         letter-spacing: 0em;
@@ -665,17 +720,15 @@ body {
 
     .price-text {
         font-family: Lato;
-        font-size: 36px;
+        font-size: var(--size-big);
         font-weight: 500;
         line-height: 43px;
         letter-spacing: 0em;
         text-align: center;
         color: var(--white);
-        position: ;
-        margin-top: px;
         margin-left: 800px;
         display: flex;
-        transform: translate(0, 200px);
+        transform: translate(0, 150px);
     }
 
     .circle-3 {
@@ -693,14 +746,14 @@ body {
         letter-spacing: 0em;
         text-align: center;
         color: var(--black);
-        margin-top: 200px;
+        margin-top: 150px;
         margin-left: 870px;
         z-index: 999;
         display: flex;
     }
 
     .arrow-left {
-        color: var(--white);
+        color: var(--light-grey);
         width: 36px;
         height: 36px;
         padding: 2px;
@@ -712,7 +765,7 @@ body {
 
     }
 
-    .arrow-right {
+    .arrow-left:hover {
         color: var(--white);
         width: 36px;
         height: 36px;
@@ -720,6 +773,28 @@ body {
         border-radius: 50%;
         border: solid 2px;
         text-align: center;
+        margin-right: 14px;
+    }
+
+    .arrow-right {
+        color: var(--light-grey);
+        width: 36px;
+        height: 36px;
+        padding: 2px;
+        border-radius: 50%;
+        border: solid 2px;
+        text-align: center;
+    }
+
+    .arrow-right:hover {
+        color: var(--white);
+        width: 36px;
+        height: 36px;
+        padding: 2px;
+        border-radius: 50%;
+        border: solid 2px;
+        text-align: center;
+        margin-right: 14px;
     }
 
     .arrow-photo {
@@ -730,8 +805,8 @@ body {
 
     .arrow {
         display: flex;
-        transform: translate(0px, 650px);
-        margin-left: 850px;
+        transform: translatey(580px);
+        margin-left: 830px;
     }
 
     .head-text-1 {
@@ -750,7 +825,7 @@ body {
 
     .head-title {
         font-family: Lato;
-        font-size: 112px;
+        font-size: var(--size-xx-big);
         font-weight: 900;
         line-height: 100px;
         letter-spacing: 0.13em;
@@ -763,7 +838,7 @@ body {
 
     .head-text-2 {
         font-family: Lato;
-        font-size: 25px;
+        font-size: var(--size-l-large);
         font-weight: 400;
         line-height: 30px;
         letter-spacing: 0em;
@@ -777,7 +852,7 @@ body {
     .head-btn {
         width: 180px;
         height: 49px;
-        padding: 16px, 40px, 16px, 40px;
+        padding: 16px 40px 16px 40px;
         border-radius: 6px;
         gap: 10px;
         background-color: var(--yellow);
@@ -791,7 +866,7 @@ body {
     .head-btn:hover {
         width: 180px;
         height: 49px;
-        padding: 16px, 40px, 16px, 40px;
+        padding: 16px 40px 16px 40px;
         border-radius: 6px;
         background-color: var(--okr);
     }
@@ -802,12 +877,7 @@ body {
         border-radius: 50%;
         background-color: var(--dark-green);
         margin-left: 987px;
-        margin-right: px;
-        margin-top: ;
-        margin-bottom: px;
-        position: ;
-        z-index: ;
-        transform: translate(0px, -310px);
+        transform: translate(0px, -370px);
     }
 
     .circle-2 {
@@ -816,21 +886,16 @@ body {
         border-radius: 50%;
         background-color: var(--dark-green);
         margin-left: 806px;
-        margin-right: ;
-        margin-top: -520px;
+        margin-top: -570px;
         position: absolute;
-        z-index: ;
     }
-
-    .frame {}
 
     .photo-1 {
         width: 342.16px;
         height: 619.63px;
-        transform: translate(0px, -434px);
+        transform: translate(0px, -495px);
         margin-left: 877px;
         position: absolute;
-        z-index: ;
     }
 
 
@@ -852,7 +917,6 @@ body {
         background-color: var(--grey);
         display: inline-block;
         z-index: 999;
-        position: ;
         margin-right: 16px;
     }
 
@@ -861,7 +925,6 @@ body {
         height: 14px;
         border-radius: 21px;
         background-color: var(--grey);
-        list-style: ;
         display: inline-block;
         z-index: 999;
     }
@@ -871,7 +934,6 @@ body {
         align-items: center;
         transform: rotate(-270deg);
         margin-left: 1300px;
-        margin-right: px;
         margin-top: -500px;
     }
 
@@ -914,11 +976,13 @@ body {
     .mark-photo-3 {
         width: 160.96px;
         height: 34.69px;
+        object-fit: contain;
     }
 
     .mark-photo-4 {
         width: 140.27px;
         height: 35.86px;
+        object-fit: contain;
     }
 
     .mark-photo-5 {
@@ -931,21 +995,20 @@ body {
     .mark-photo-6 {
         width: 60px;
         height: 40px;
+        object-fit: contain;
     }
 
 
     .hero-1 {
         width: 100%;
-        height: px;
+        height: auto;
         background-color: var(--white);
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 70px;
+        padding: 10px 15px 70px 15px;
     }
 
     .hero-1-title {
         font-family: Lato;
-        font-size: 48px;
+        font-size: var(--size-x-big);
         font-weight: 400;
         line-height: 48px;
         letter-spacing: 0em;
@@ -966,7 +1029,6 @@ body {
         margin-left: 110px;
         margin-top: 70px;
         margin-right: 80px;
-        flex-basis: ;
 
     }
 
@@ -995,11 +1057,11 @@ body {
         padding: 16px, 40px, 16px, 40px;
         border-radius: 6px;
         gap: 10px;
-        background-color: var(--black-2);
         color: var(--white);
         margin-left: 309px;
         margin-top: 400px;
         position: absolute;
+        background-color: var(--black-2);
     }
 
     .card-1-btn:hover {
@@ -1016,8 +1078,6 @@ body {
         border-radius: 24px;
         margin-top: 70px;
         background-color: var(--yellow);
-        flex-basis: ;
-        margin-right: px;
 
     }
 
@@ -1036,7 +1096,7 @@ body {
 
     .card-2-off {
         font-family: Roboto;
-        font-size: 48px;
+        font-size: var(--size-x-big);
         font-weight: 700;
         line-height: 56px;
         letter-spacing: 0em;
@@ -1060,11 +1120,11 @@ body {
         padding: 16px, 40px, 16px, 40px;
         border-radius: 6px;
         gap: 10px;
-        background-color: var(--black-2);
-        color: var(--white);
         margin-right: 24px;
         margin-bottom: 24px;
         transform: translate(90px, -50px);
+        background-color: var(--black-2);
+        color: var(--white);
     }
 
     .card-2-btn:hover {
@@ -1082,7 +1142,7 @@ body {
 
     .hero-2-title {
         font-family: Lato;
-        font-size: 48px;
+        font-size: var(--size-x-big);
         font-weight: 400;
         line-height: 48px;
         letter-spacing: 0em;
@@ -1093,13 +1153,22 @@ body {
 
     .list-items {
         display: flex;
-        overflow-x: ;
         flex-basis: 25%;
     }
 
     .items {
-        display: inline;
-        margin-right: 35px;
+        display: inline-block;
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+
+    }
+
+    .items:first-of-type {
+        margin-left: 110px;
+    }
+
+    .items:nth-of-type(4) {
+        margin-right: 110px;
     }
 
     .hero-2-photo {
@@ -1107,35 +1176,35 @@ body {
         height: 347px;
         border-radius: 24px;
         gap: 10px;
-        background-color: var(--white);
-        padding-bottom: px;
         margin-top: 70px;
-        margin-left: 110px;
+        margin-bottom: 16px;
+        background-color: var(--white);
     }
-
-    .hero-2-photo:hover: {
-        background-color: var(--black);
-    }
-
-    .shop:hover {}
-
 
     .item-photo {
         width: 214px;
         height: 238px;
         align-items: center;
         margin-left: 48.5px;
+        margin-bottom: 54px;
     }
 
     .heart {
         width: 24px;
         height: 24px;
-        padding: 1.92px, 0px, 0.99px, 0px;
+        padding: 1.92px 0px 0.99px 0px;
         margin-left: 264px;
         margin-top: 16px;
     }
 
-    .black-hear:hover {}
+    .heart:hover {
+        width: 24px;
+        height: 24px;
+        margin-left: 264px;
+        margin-top: 16px;
+        background-color: var(--black);
+        background-image: url("assets/style/images/Vector (3).png");
+    }
 
     .hero-2-text {
         font-family: Roboto;
@@ -1145,8 +1214,8 @@ body {
         letter-spacing: 0em;
         text-align: left;
         text-wrap: nowrap;
+        margin-bottom: 6px;
         color: var(--black);
-        margin-left: 110px;
     }
 
     .hero-2-price {
@@ -1156,9 +1225,53 @@ body {
         line-height: 19px;
         letter-spacing: 0em;
         text-align: left;
-        margin-left: 110px;
-        margin-bottom: ;
+        margin-bottom: 70px;
         color: var(--grey-2);
+    }
+
+    .hero-2-price-2 {
+        font-family: Roboto;
+        font-size: var(--size-small);
+        font-weight: 300;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--grey-3);
+        text-decoration: line-through;
+        text-decoration-color: var(--grey-3);
+        margin-left: 15px;
+    }
+
+    .off {
+        width: 41px;
+        height: 20px;
+        padding: 3px 6px 3px 6px;
+        border-radius: 6px;
+        font-family: Roboto;
+        font-size: var(--size-s-small);
+        font-weight: 300;
+        line-height: 14px;
+        letter-spacing: 0em;
+        margin-top: -16px;
+        margin-left: 16px;
+        background-color: var(--light-green);
+        color: var(--white)
+    }
+
+    .item-photo-2 {
+        width: 214px;
+        height: 238px;
+        align-items: center;
+        margin-left: 48.5px;
+        margin-bottom: 54px;
+    }
+
+    .heart-2 {
+        width: 24px;
+        height: 24px;
+        padding: 1.92px, 0px, 0.99px, 0px;
+        margin-left: 264px;
+        margin-top: 16px;
     }
 
     .troly {
@@ -1179,24 +1292,11 @@ body {
         background-color: var(--yellow);
     }
 
-    .buy:hover {}
-
     .subscribe {
         display: flex;
     }
 
-    .hero-2-text {
-        font-family: Roboto;
-        font-size: var(--size-medium);
-        font-weight: 500;
-        line-height: 21px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-left: 110px;
-        margin-top: 16px;
-        margin-bottom: 4px;
-        display: ;
-    }
+
 
     .hero-2-btn {
         width: 207px;
@@ -1213,7 +1313,7 @@ body {
     }
 
 
-    footer {
+    .hero-3 {
         width: 1540px;
         height: 450px;
         background-color: var(--light-green);
@@ -1236,10 +1336,8 @@ body {
 
     .time-list {
         display: flex;
-        flex-basis: ;
         margin-top: 94px;
         margin-left: -480px;
-        margin-right: px;
         padding-bottom: 78px;
     }
 
@@ -1250,8 +1348,13 @@ body {
         gap: 12px;
         display: block;
         margin-right: 48px;
-        margin-top: px;
         padding-bottom: 78px;
+    }
+
+    .time-item:hover {
+        width: 113px;
+        height: 152px;
+        border-radius: 8px;
     }
 
     .number {
@@ -1260,17 +1363,32 @@ body {
         font-weight: 700;
         line-height: 48px;
         letter-spacing: 0em;
-        background-color: var(--dark-green);
+        text-align: center;
+        align-items: center;
         color: var(--white);
+
+    }
+
+    .squre {
         width: 153.5px;
         height: 112px;
-        padding-top: 12px;
+        padding: 30px 20px 0px 30px;
         border-radius: 8px;
         margin-bottom: 12px;
         margin-top: 94px;
-        text-align: center;
-        align-items: center;
         display: block;
+        background-color: var(--dark-green)
+    }
+
+    .squre-1 {
+        width: 153.5px;
+        height: 112px;
+        padding: 30px 30px 20px 45px;
+        border-radius: 8px;
+        margin-bottom: 12px;
+        margin-top: 94px;
+        display: block;
+        background-color: var(--dark-green)
     }
 
     .time {
@@ -1284,20 +1402,19 @@ body {
         color: var(--white)
     }
 
-    footer {
+    .hero-3 {
         display: flex;
     }
 
     .shoes {
         display: inline-block;
-        flex-basis: ;
         background-image: conic-gradient(var(--light-green) 0deg 180deg, var(--yellow) 180deg 270deg);
         padding-right: 250px;
     }
 
     .shoes-text {
         font-family: Roboto;
-        font-size: 64px;
+        font-size: var(--size-xx-big);
         font-weight: 700;
         line-height: 48px;
         letter-spacing: 0em;
@@ -1309,10 +1426,9 @@ body {
     }
 
     .shoes-photo {
+        display: block;
         margin-top: 72px;
         padding-left: 110px;
         margin-bottom: 78px;
-        margin-right: ;
-
     }
 }
